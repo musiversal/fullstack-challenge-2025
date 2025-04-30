@@ -55,8 +55,8 @@ Frontend (ReactJS + TypeScript)
 	•	Ensure basic loading indicators and error handling.
 	•	Use React functional components and hooks.
 
-Here is some wireframe:
 
+We trust you will came up with something decent in terms of UI. We also want to assess your creativity!
 ⸻
 
 Extra Credit (Optional)
