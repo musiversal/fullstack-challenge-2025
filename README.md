@@ -21,27 +21,28 @@ You must build:
 
 ⸻
 
-🛠️ Technical Requirements
+## 🛠️ Technical Requirements
 
-Backend (NodeJS + TypeScript)
-	•	Create a NodeJS server using Express, Fastify, or similar.
-	•	Endpoints required:
-	•	GET /songs → Return the list of songs.
-	•	POST /songs → Add a new song (accepts an image file upload).
-	•	DELETE /songs/:id → Delete a song by ID.
-	•	Each song must contain:
-	•	id: string
-	•	name: string
-	•	artist: string
-	•	imageUrl: string (path to the uploaded album cover)
-	•	Images must be:
-	•	Uploaded and saved locally (e.g., /uploads folder).
-	•	Served statically via the API.
-	•	Data can be stored in memory (no database needed).
-	•	Handle basic errors properly.
-	•	Use proper TypeScript typing throughout the backend.
+### Backend (NodeJS + TypeScript)
 
-🔹 Hint: You may use libraries like multer for file uploads.
+- Create a NodeJS server using **Express**, **Fastify**, or similar.
+- Endpoints required:
+  - `GET /songs` → Return the list of songs.
+  - `POST /songs` → Add a new song (accepts an image file upload).
+  - `DELETE /songs/:id` → Delete a song by ID.
+- Each song must contain:
+  - `id: string`
+  - `name: string`
+  - `artist: string`
+  - `imageUrl: string` (path to the uploaded album cover)
+- Images must be:
+  - Uploaded and saved **locally** (e.g., `/uploads` folder).
+  - Served statically via the API.
+- Data can be stored **in memory** (no database needed).
+- Handle **basic errors** properly.
+- Use proper **TypeScript typing** throughout the backend.
+
+🔹 **Hint**: You may use libraries like `multer` for file uploads.
 
 ⸻
 
